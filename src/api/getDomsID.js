@@ -4,7 +4,7 @@ app.getDomID = function(id) {
     const element = document.getElementById(id);
 
     if (!element) {
-        throw new Error(`[getDomsID] [VDAPI] archy.getDomsID returned (a) null id(s)`);   
+        throw new Error(`[getDomsID] returned (a) null id(s): ${id}`);   
     }
 
     return element;

@@ -7,13 +7,13 @@ app.createDom = function({id, className }) {
     if (id) {
         element.id = id;
     } else {
-        throw new Error("[createDom] [VDAPI] createDom return an ID that is null!");
+        throw new Error("[createDom] returned a null id");
     }
 
     if (className) {
         element.className = className;
     } else {
-        throw new Error("[createDom] [VDAPI] createDom return a class name that is null!");
+        throw new Error("[createDom] returned a null className");
     }
 
     document.body.appendChild(element);

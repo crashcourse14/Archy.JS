@@ -40,13 +40,3 @@ app.function.name(arg);  //if you want to use the app.const constant, use: ${app
 
 ```
 
-## MATH
-
-```javascript
-
-const f = app.ceil(number);
-const g = app.round(number);
-const h = app.trunc(number); 
-const i = app.floor(number);
-
-```

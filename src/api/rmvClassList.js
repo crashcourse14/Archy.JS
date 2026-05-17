@@ -4,7 +4,7 @@ app.rmvClassList = function({id, classListName}) {
     const element = document.getElementById(id);
 
     if (!id) {
-        throw new Error(`[setClassList] [VAPI] archy.setClassList returned an ID that is null!`);
+        throw new Error(`[rmvClassList] returned an ID that is null: ${id}`);
     }
 
     element.classList.remove(classListName);
